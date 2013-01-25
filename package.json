@@ -29,7 +29,7 @@
 		"npm": "1.1.x"
 	},
 	"dependencies": {
-		"docpad": "~6.21.6",
+		"docpad": "~6.21.7",
 		"docpad-plugin-cleanurls": "2.x",
 		"docpad-plugin-coffeescript": "2.x",
 		"docpad-plugin-eco": "2.x",
