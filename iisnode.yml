@@ -1,9 +1,9 @@
 # For security reasons, logging, dev errors, and debugging 
 # should be disabled in production deployments:
 
-loggingEnabled: false
-debuggingEnabled: false
-devErrorsEnabled: false
+loggingEnabled: true
+debuggingEnabled: true
+devErrorsEnabled: true
 node_env: production
 
 # Other settings with their default values follow.
