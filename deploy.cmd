@@ -66,12 +66,6 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   popd
 )
 
-:: 3. Build DocPad Site
-echo Building the DocPad site
-pushd %DEPLOYMENT_TARGET%
-call  %DEPLOYMENT_TARGET%\node_modules\.bin\docpad.cmd generate --env static
-IF !ERRORLEVEL! NEQ 0 goto error
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 goto end
