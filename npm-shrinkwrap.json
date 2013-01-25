@@ -1,0 +1,466 @@
+{
+  "name": "twitter-bootstrap.docpad",
+  "version": "0.9.0",
+  "dependencies": {
+    "docpad": {
+      "version": "6.21.5",
+      "from": "docpad@6.x",
+      "dependencies": {
+        "bal-util": {
+          "version": "1.15.4",
+          "from": "bal-util@~1.15.4"
+        },
+        "caterpillar": {
+          "version": "1.1.3",
+          "from": "caterpillar@~1.1.3",
+          "dependencies": {
+            "cli-color": {
+              "version": "0.2.1",
+              "from": "cli-color@0.2.x",
+              "dependencies": {
+                "es5-ext": {
+                  "version": "0.9.1",
+                  "from": "es5-ext@~0.9.1"
+                },
+                "memoizee": {
+                  "version": "0.2.3",
+                  "from": "memoizee@0.2.x",
+                  "dependencies": {
+                    "event-emitter": {
+                      "version": "0.2.1",
+                      "from": "event-emitter@~0.2.1"
+                    },
+                    "next-tick": {
+                      "version": "0.1.0",
+                      "from": "next-tick@0.1.x"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "commander": {
+          "version": "1.1.1",
+          "from": "commander@~1.1.1",
+          "dependencies": {
+            "keypress": {
+              "version": "0.1.0",
+              "from": "keypress@0.1.x"
+            }
+          }
+        },
+        "cson": {
+          "version": "1.4.0",
+          "from": "cson@~1.4.0",
+          "dependencies": {
+            "coffee-script": {
+              "version": "1.4.0",
+              "from": "coffee-script@1.4.x"
+            },
+            "js2coffee": {
+              "version": "0.1.3",
+              "from": "js2coffee@0.1.x"
+            }
+          }
+        },
+        "express": {
+          "version": "3.0.6",
+          "from": "express@~3.0.6",
+          "dependencies": {
+            "connect": {
+              "version": "2.7.2",
+              "from": "connect@2.7.2",
+              "dependencies": {
+                "qs": {
+                  "version": "0.5.1",
+                  "from": "qs@0.5.1"
+                },
+                "formidable": {
+                  "version": "1.0.11",
+                  "from": "formidable@1.0.11"
+                },
+                "bytes": {
+                  "version": "0.1.0",
+                  "from": "bytes@0.1.0"
+                },
+                "pause": {
+                  "version": "0.0.1",
+                  "from": "pause@0.0.1"
+                }
+              }
+            },
+            "commander": {
+              "version": "0.6.1",
+              "from": "commander@0.6.1"
+            },
+            "range-parser": {
+              "version": "0.0.4",
+              "from": "range-parser@0.0.4"
+            },
+            "mkdirp": {
+              "version": "0.3.3",
+              "from": "mkdirp@0.3.3"
+            },
+            "cookie": {
+              "version": "0.0.5",
+              "from": "cookie@0.0.5"
+            },
+            "buffer-crc32": {
+              "version": "0.1.1",
+              "from": "buffer-crc32@0.1.1"
+            },
+            "fresh": {
+              "version": "0.1.0",
+              "from": "fresh@0.1.0"
+            },
+            "methods": {
+              "version": "0.0.1",
+              "from": "methods@0.0.1"
+            },
+            "send": {
+              "version": "0.1.0",
+              "from": "send@0.1.0",
+              "dependencies": {
+                "mime": {
+                  "version": "1.2.6",
+                  "from": "mime@1.2.6"
+                }
+              }
+            },
+            "cookie-signature": {
+              "version": "0.0.1",
+              "from": "cookie-signature@0.0.1"
+            },
+            "debug": {
+              "version": "0.7.0",
+              "from": "debug@*"
+            }
+          }
+        },
+        "mime": {
+          "version": "1.2.9",
+          "from": "mime@~1.2.7"
+        },
+        "query-engine": {
+          "version": "1.5.1",
+          "from": "query-engine@~1.5.0"
+        },
+        "semver": {
+          "version": "1.1.2",
+          "from": "semver@~1.1.2"
+        },
+        "underscore": {
+          "version": "1.4.3",
+          "from": "underscore@~1.4.3"
+        },
+        "backbone": {
+          "version": "0.9.9",
+          "from": "backbone@0.9.9"
+        },
+        "watchr": {
+          "version": "2.3.3",
+          "from": "watchr@~2.3.3",
+          "dependencies": {
+            "bal-util": {
+              "version": "1.15.4",
+              "from": "bal-util@~1.15.4"
+            }
+          }
+        },
+        "yamljs": {
+          "version": "0.1.4",
+          "from": "yamljs@~0.1.4",
+          "dependencies": {
+            "argparse": {
+              "version": "0.1.10",
+              "from": "argparse@~0.1.4",
+              "dependencies": {
+                "underscore": {
+                  "version": "1.3.3",
+                  "from": "underscore@~1.3.3"
+                },
+                "underscore.string": {
+                  "version": "2.1.1",
+                  "from": "underscore.string@~2.1.1"
+                }
+              }
+            },
+            "glob": {
+              "version": "3.1.17",
+              "from": "glob@~3.1.11",
+              "dependencies": {
+                "minimatch": {
+                  "version": "0.2.9",
+                  "from": "minimatch@0.2",
+                  "dependencies": {
+                    "lru-cache": {
+                      "version": "2.0.4",
+                      "from": "lru-cache@~2.0.0"
+                    },
+                    "sigmund": {
+                      "version": "1.0.0",
+                      "from": "sigmund@~1.0.0"
+                    }
+                  }
+                },
+                "graceful-fs": {
+                  "version": "1.1.14",
+                  "from": "graceful-fs@~1.1.2"
+                },
+                "inherits": {
+                  "version": "1.0.0",
+                  "from": "inherits@1"
+                }
+              }
+            }
+          }
+        },
+        "airbrake": {
+          "version": "0.2.9",
+          "from": "airbrake@~0.2.9",
+          "dependencies": {
+            "request": {
+              "version": "2.9.202",
+              "from": "request@2.9.202"
+            },
+            "xmlbuilder": {
+              "version": "0.1.5",
+              "from": "xmlbuilder@0.1.5"
+            },
+            "stack-trace": {
+              "version": "0.0.5",
+              "from": "stack-trace@0.0.5"
+            },
+            "hashish": {
+              "version": "0.0.4",
+              "from": "hashish@0.0.4",
+              "dependencies": {
+                "traverse": {
+                  "version": "0.6.3",
+                  "from": "traverse@>=0.2.4"
+                }
+              }
+            }
+          }
+        },
+        "growl": {
+          "version": "1.6.1",
+          "from": "growl@~1.6.1"
+        },
+        "mixpanel": {
+          "version": "0.0.10",
+          "from": "mixpanel@0.0.10",
+          "resolved": "https://registry.npmjs.org/mixpanel/-/mixpanel-0.0.10.tgz"
+        }
+      }
+    },
+    "docpad-plugin-cleanurls": {
+      "version": "2.4.0",
+      "from": "docpad-plugin-cleanurls@2.x",
+      "dependencies": {
+        "bal-util": {
+          "version": "1.15.4",
+          "from": "bal-util@~1.15.3"
+        }
+      }
+    },
+    "docpad-plugin-coffeescript": {
+      "version": "2.2.0",
+      "from": "docpad-plugin-coffeescript@2.x",
+      "dependencies": {
+        "coffee-script": {
+          "version": "1.4.0",
+          "from": "coffee-script@1.4.x"
+        }
+      }
+    },
+    "docpad-plugin-eco": {
+      "version": "2.0.1",
+      "from": "docpad-plugin-eco@2.x",
+      "dependencies": {
+        "eco": {
+          "version": "1.1.0-rc-3",
+          "from": "eco@1.1.x",
+          "dependencies": {
+            "strscan": {
+              "version": "1.0.1",
+              "from": "strscan@>=1.0.1"
+            },
+            "coffee-script": {
+              "version": "1.4.0",
+              "from": "coffee-script@>=1.2.0"
+            }
+          }
+        }
+      }
+    },
+    "docpad-plugin-less": {
+      "version": "2.1.2",
+      "from": "docpad-plugin-less@2.x",
+      "dependencies": {
+        "less": {
+          "version": "1.3.3",
+          "from": "less@1.3.x",
+          "dependencies": {
+            "ycssmin": {
+              "version": "1.0.1",
+              "from": "ycssmin@>=1.0.1"
+            }
+          }
+        }
+      }
+    },
+    "docpad-plugin-marked": {
+      "version": "2.1.0",
+      "from": "docpad-plugin-marked@2.x"
+    },
+    "docpad-plugin-partials": {
+      "version": "2.4.0",
+      "from": "docpad-plugin-partials@2.x",
+      "dependencies": {
+        "bal-util": {
+          "version": "1.15.4",
+          "from": "bal-util@1.15.x"
+        }
+      }
+    },
+    "docpad-plugin-stylus": {
+      "version": "2.2.0",
+      "from": "docpad-plugin-stylus@2.x",
+      "dependencies": {
+        "stylus": {
+          "version": "0.30.1",
+          "from": "stylus@0.30.x",
+          "dependencies": {
+            "cssom": {
+              "version": "0.2.5",
+              "from": "cssom@0.2.x"
+            },
+            "mkdirp": {
+              "version": "0.3.4",
+              "from": "mkdirp@0.3.x"
+            },
+            "debug": {
+              "version": "0.7.0",
+              "from": "debug@*"
+            }
+          }
+        },
+        "nib": {
+          "version": "0.8.2",
+          "from": "nib@0.8.x"
+        }
+      }
+    },
+    "docpad-plugin-text": {
+      "version": "2.2.0",
+      "from": "docpad-plugin-text@2.x",
+      "dependencies": {
+        "bal-util": {
+          "version": "1.15.4",
+          "from": "bal-util@~1.15.3"
+        }
+      }
+    },
+    "docpad-plugin-jade": {
+      "version": "2.3.0",
+      "from": "docpad-plugin-jade@2.x",
+      "dependencies": {
+        "jade": {
+          "version": "0.28.1",
+          "from": "jade@~0.28.1",
+          "dependencies": {
+            "commander": {
+              "version": "0.6.1",
+              "from": "commander@0.6.1"
+            },
+            "mkdirp": {
+              "version": "0.3.4",
+              "from": "mkdirp@0.3.x"
+            },
+            "coffee-script": {
+              "version": "1.4.0",
+              "from": "coffee-script@~1.4.0"
+            }
+          }
+        }
+      }
+    },
+    "docpad-plugin-related": {
+      "version": "2.0.4",
+      "from": "docpad-plugin-related@2.x",
+      "resolved": "https://registry.npmjs.org/docpad-plugin-related/-/docpad-plugin-related-2.0.4.tgz"
+    },
+    "marked": {
+      "version": "0.2.7",
+      "from": "marked@*"
+    },
+    "docpad-plugin-livereload": {
+      "version": "2.3.0",
+      "from": "docpad-plugin-livereload@2.x",
+      "dependencies": {
+        "socket.io": {
+          "version": "0.9.13",
+          "from": "socket.io@~0.9.13",
+          "dependencies": {
+            "socket.io-client": {
+              "version": "0.9.11",
+              "from": "socket.io-client@0.9.11",
+              "dependencies": {
+                "uglify-js": {
+                  "version": "1.2.5",
+                  "from": "uglify-js@1.2.5"
+                },
+                "ws": {
+                  "version": "0.4.25",
+                  "from": "ws@0.4.x",
+                  "dependencies": {
+                    "commander": {
+                      "version": "0.6.1",
+                      "from": "commander@~0.6.1"
+                    },
+                    "tinycolor": {
+                      "version": "0.0.1",
+                      "from": "tinycolor@0.x"
+                    },
+                    "options": {
+                      "version": "0.0.3",
+                      "from": "options@latest"
+                    }
+                  }
+                },
+                "xmlhttprequest": {
+                  "version": "1.4.2",
+                  "from": "xmlhttprequest@1.4.2"
+                },
+                "active-x-obfuscator": {
+                  "version": "0.0.1",
+                  "from": "active-x-obfuscator@0.0.1",
+                  "dependencies": {
+                    "zeparser": {
+                      "version": "0.0.5",
+                      "from": "zeparser@0.0.5"
+                    }
+                  }
+                }
+              }
+            },
+            "policyfile": {
+              "version": "0.0.4",
+              "from": "policyfile@0.0.4"
+            },
+            "base64id": {
+              "version": "0.1.0",
+              "from": "base64id@0.1.0"
+            },
+            "redis": {
+              "version": "0.7.3",
+              "from": "redis@0.7.3"
+            }
+          }
+        }
+      }
+    }
+  }
+}
