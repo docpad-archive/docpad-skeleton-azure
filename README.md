@@ -34,4 +34,4 @@ If you are wanting to close-source your website, we'd suggest using the followin
 
 Other included things such as themes and libraries are likely already licensed by their own individual licenses, so be sure to respect their licenses too.
 
-Thanks, the DocPad team loves you.
+Thanks, the DocPad team loves you.Yes ok done
